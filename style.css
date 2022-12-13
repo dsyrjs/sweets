@@ -1,0 +1,117 @@
+#title {
+  background-color: #F765A3;
+}
+h1{
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container-fluid{
+    padding: 1% 5%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: normal;
+}
+.navbar{
+    padding-bottom: 1rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+  
+}
+
+
+.butter-image{
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+ 
+}
+
+
+/* Media Query */
+
+@media (max-width:1028px){
+
+#title {
+  text-align: center;
+}
+
+.butter-image{
+  transform: rotate(0);
+  position: static;
+  z-index: 1;
+  
+}
+
+}
+
+#features {
+  padding: 7% 15%;
+ background-color: #f9d1d1;
+ position: relative;
+z-index: 1;
+}
+.feature-box{
+    padding:  7% 7% 15%;
+    text-align: center;
+    background-color: #f9d1d1;
+    color: black;
+    width: 10%;
+
+}
+.icon { 
+   
+    margin-bottom: 1rem;
+}
+.icon-hover{
+    color: orange;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ffa4b6;
+    color: black;
+    font-style: italic;
+}
+.carousel{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+background-color: #f4b6c2 ;
+text-align: center;
+padding-bottom: 5%;
+}
+.press-logo {
+  width: 25%;
+  margin: 20px 20px 60px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #A155b9;
+
+}
+
+.pricing-column {
+padding: 3% 2%;
+
+}
